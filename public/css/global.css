@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  font-family: "Newsreader", serif;
+  color: aliceblue;
+  font-style: normal;
+  text-transform: uppercase;
+}
+p {
+  text-transform: none;
+}

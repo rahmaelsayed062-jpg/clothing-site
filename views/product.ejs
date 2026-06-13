@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/js/carousel.js"></script>
+    <title>Mercy</title>
+</head>
+<body>
+    <div class="product-page">
+
+    <div class="carousel">
+        <button class="btn prev">❮</button>
+        <div class="slides">
+
+            <% product.images.forEach(img => { %>
+                <img class="slide" src="<%= img %>" alt="<%= product.name %>">
+            <% }) %>
+
+        </div>
+        
+        <button class="btn next">❯</button>
+
+    </div>
+
+    <div class="product-info">
+        <h1><%= product.name %></h1>
+        <h2><%= product.brand %></h2>
+        <p class="price"> $<%= product.price %> </p>
+        <hr>
+        <p><%= product.description %></p>
+        <button type="submit">Add to Cart</button>
+    </div>
+
+</div>
+</body>
+</html>
+
+

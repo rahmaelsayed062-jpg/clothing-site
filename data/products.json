@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "slug": "small-gig-leather-shoulder-bag",
+    "name": "Small Gig leather shoulder bag",
+    "brand": "Phoebe Philo",
+    "price": 1935,
+    "category": "bags",
+    "inStock": true,
+    "description": "A compact leather shoulder bag with a minimalist design, crafted for everyday elegance and lightweight carry.",
+    "images": [
+      "/images/products/small-shoulder/small-shoulder-main.avif",
+      "/images/products/small-shoulder/small-shoulder-hover.avif",
+      "/images/products/small-shoulder/small-shoulder-display1.avif",
+      "/images/products/small-shoulder/small-shoulder-display2.avif"
+    ]
+  },
+
+  {
+    "id": 2,
+    "slug": "kara-small-suede-crossbody-bag",
+    "name": "Kara Small suede crossbody bag",
+    "brand": "Tom Ford",
+    "price": 1640,
+    "category": "bags",
+    "inStock": true,
+    "description": "A soft suede crossbody bag designed with a refined silhouette, perfect for casual luxury styling.",
+    "images": [
+      "/images/products/crossbody/crossbody-main.avif",
+      "/images/products/crossbody/crossbody-hover.avif",
+      "/images/products/crossbody/crossbody-display1.avif",
+      "/images/products/crossbody/crossbody-display2.avif"
+    ]
+  },
+
+  {
+    "id": 3,
+    "slug": "le-city-small-leather-top-handle-bag",
+    "name": "Le City Small leather top-handle bag",
+    "brand": "Balenciaga",
+    "price": 2145,
+    "category": "bags",
+    "inStock": true,
+    "description": "A structured top-handle leather bag with a modern edge, blending luxury craftsmanship with everyday utility.",
+    "images": [
+      "/images/products/top-handle/top-handle-main.avif",
+      "/images/products/top-handle/top-handle-hover.avif",
+      "/images/products/top-handle/top-handle-display1.avif",
+      "/images/products/top-handle/top-handle-display2.avif"
+    ]
+  },
+
+  {
+    "id": 4,
+    "slug": "alma-medium-leather-shoulder-bag",
+    "name": "Alma Medium leather shoulder bag",
+    "brand": "The Row",
+    "price": 3010,
+    "category": "bags",
+    "inStock": true,
+    "description": "A medium-sized leather shoulder bag with a clean, understated design focused on premium materials and timeless style.",
+    "images": [
+      "/images/products/medium-shoulder/medium-shoulder-main.avif",
+      "/images/products/medium-shoulder/medium-shoulder-hover.webp",
+      "/images/products/medium-shoulder/medium-shoulder-display1.avif",
+      "/images/products/medium-shoulder/medium-shoulder-display2.avif"
+    ]
+  }
+]
