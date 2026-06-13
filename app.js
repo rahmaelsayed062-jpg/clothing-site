@@ -3,6 +3,7 @@ import fs from "fs";
 import url from "url";
 import path from "path";
 import { json } from "stream/consumers";
+import { searchProducts } from "./utills/search.js";
 
 const port = 3000;
 const app = express();
@@ -37,3 +38,6 @@ app.listen(port, () => {
 });
 
 console.log("reached bottom of file");
+
+const filterd = searchProducts("medium", products);
+console.log("reached bottom of file", filterd);
