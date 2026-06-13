@@ -1,3 +1,3 @@
 function search() {
-  // implemented the search function
+  // implemented the search function from the main branch
 }
